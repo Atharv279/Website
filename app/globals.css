@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 208 100% 97%; /* #F0F8FF AliceBlue */
+    --foreground: 210 25% 25%; /* Dark Grayish Blue */
+
+    --card: 208 100% 97%;
+    --card-foreground: 210 25% 25%;
+
+    --popover: 208 100% 97%;
+    --popover-foreground: 210 25% 25%;
+
+    --primary: 200 40% 80%; /* Desaturated Light Blue #B8D8E6 */
+    --primary-foreground: 200 40% 20%; /* Dark Blue */
+
+    --secondary: 200 30% 90%; /* Lighter, less saturated blue */
+    --secondary-foreground: 200 30% 20%;
+
+    --muted: 210 20% 90%; /* Light gray-blue */
+    --muted-foreground: 210 20% 45%;
+
+    --accent: 120 60% 75%; /* Light-medium Green #90EE90 (adjusted saturation) */
+    --accent-foreground: 120 60% 20%; /* Dark Green */
+
+    --destructive: 0 70% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 20% 85%;
+    --input: 200 20% 88%;
+    --ring: 200 40% 70%; /* Related to primary */
+
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+
+    /* Sidebar specific colors removed */
+  }
+
+  .dark {
+    /* Ensuring dark mode has some contrast, though not explicitly requested, good practice */
+    --background: 210 25% 15%;
+    --foreground: 208 100% 90%;
+
+    --card: 210 25% 15%;
+    --card-foreground: 208 100% 90%;
+
+    --popover: 210 25% 15%;
+    --popover-foreground: 208 100% 90%;
+
+    --primary: 200 40% 60%;
+    --primary-foreground: 200 40% 95%;
+
+    --secondary: 200 30% 25%;
+    --secondary-foreground: 200 30% 90%;
+
+    --muted: 210 20% 25%;
+    --muted-foreground: 210 20% 65%;
+
+    --accent: 120 60% 55%;
+    --accent-foreground: 120 60% 95%;
+    
+    --destructive: 0 60% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 20% 30%;
+    --input: 200 20% 33%;
+    --ring: 200 40% 50%;
+
+    /* Sidebar specific colors removed */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    /* Apply Inter font globally */
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+/* AdSense placeholder styling */
+.ad-placeholder {
+  @apply w-full bg-muted/50 border border-dashed border-muted-foreground flex items-center justify-center text-muted-foreground text-sm min-h-[90px] rounded-md;
+}
+
+.ad-placeholder-top-banner { @apply min-h-[90px] md:min-h-[100px]; }
+.ad-placeholder-sidebar { @apply min-h-[250px]; } /* This class might be unused now but keeping for ad slots */
+.ad-placeholder-in-article { @apply min-h-[200px] my-6; }

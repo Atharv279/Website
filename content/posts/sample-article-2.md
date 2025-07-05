@@ -2,6 +2,7 @@
 title: "Diversification: Real Stories and Strategies for 2025 Investors"
 date: "2025-07-01"
 category: "Portfolio Management"
+image: "/20250706_0249_Diverse Investment Portfolio_simple_compose_01jze77c1wf2yvvdnac4zxnkpj.png"
 ---
 
 ## Introduction

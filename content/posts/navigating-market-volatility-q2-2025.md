@@ -2,6 +2,7 @@
 title: "Navigating Market Volatility: A Guide for Investors"
 date: "2025-07-01"
 category: "Investment Strategy"
+image: "/20250706_0237_Dynamic Stock Volatility_simple_compose_01jze6jd6we2d9jfc5xzcfk5a4.png"
 ---
 
 ## Introduction

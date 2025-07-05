@@ -2,6 +2,7 @@
 title: "Mutual Fund Returns (YTD May 2025): Small & Mid-Caps Lead"
 date: "2025-07-01"
 category: "Mutual Funds"
+image: "/20250706_0235_Stock Trading Dashboard_simple_compose_01jze6dgeseaq8akjewp6a6x2y.png"
 ---
 
 ## Introduction

@@ -24,7 +24,7 @@ export default function PrivacyPolicyPage() {
             </ul>
 
             <h2>Use of Your Information</h2>
-            <p>Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Site to:</p>
+            <p>We use the collected information for various purposes:</p>
             <ul>
               <li>Administer comments and respond to inquiries.</li>
               <li>Analyze usage and trends to improve our website and services.</li>
@@ -39,7 +39,13 @@ export default function PrivacyPolicyPage() {
             <p>The Site may contain links to third-party websites and applications of interest, including advertisements and external services, that are not affiliated with us. Once you have used these links to leave the Site, any information you provide to these third parties is not covered by this Privacy Policy, and we cannot guarantee the safety and privacy of your information.</p>
 
             <h2>Contact Us</h2>
-            <p>If you have questions or comments about this Privacy Policy, please contact us at: info@financeflash.example.com</p>
+            <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+            <ul>
+              <li><strong>Contact Person:</strong> Sumit Sharma</li>
+              <li><strong>Phone:</strong> +91 9238209183</li>
+              <li><strong>Email:</strong> contact@financeflash.com</li>
+              <li><strong>Address:</strong> Mumbai, Maharashtra, India</li>
+            </ul>
           </CardContent>
         </Card>
       </main>

@@ -1,6 +1,6 @@
 import Link from 'next/link';
-import { Mail, Shield, Info, FileText, Linkedin, Twitter, Facebook } from 'lucide-react';
-import type { NavItem } from '@/types';
+import { Mail, Shield, Info, FileText, Linkedin, Phone, MapPin } from 'lucide-react';
+import type { NavItem } from '../../../types';
 
 const legalNavItems: NavItem[] = [
   { href: '/about-us', label: 'About Us', icon: Info },
@@ -11,16 +11,14 @@ const legalNavItems: NavItem[] = [
 ];
 
 const socialLinks = [
-  { href: '#', label: 'LinkedIn', icon: Linkedin },
-  { href: '#', label: 'Twitter', icon: Twitter },
-  { href: '#', label: 'Facebook', icon: Facebook },
+  { href: 'https://www.linkedin.com/in/atharv-patil-bab53a284', label: 'LinkedIn', icon: Linkedin },
 ];
 
 export default function Footer() {
   return (
     <footer className="border-t bg-background/80">
       <div className="container mx-auto px-4 py-8 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
             <h3 className="font-headline text-lg font-semibold text-primary">Finance Flash</h3>
             <p className="mt-2 text-sm text-muted-foreground">
@@ -42,8 +40,29 @@ export default function Footer() {
             <ul className="mt-2 space-y-1">
               <li><Link href="/articles" className="text-sm text-muted-foreground hover:text-primary transition-colors">Articles</Link></li>
               <li><Link href="/market-updates" className="text-sm text-muted-foreground hover:text-primary transition-colors">Market Updates</Link></li>
-              <li><Link href="/sitemap.xml" className="text-sm text-muted-foreground hover:text-primary transition-colors">Sitemap</Link></li>
             </ul>
+          </div>
+
+          <div>
+            <h4 className="font-headline text-md font-semibold text-foreground">Contact Info</h4>
+            <div className="mt-2 space-y-2 text-sm text-muted-foreground">
+              <div className="flex items-center">
+                <MapPin className="mr-2 h-4 w-4 flex-shrink-0" />
+                <span>Mumbai, Maharashtra, India</span>
+              </div>
+              <div className="flex items-center">
+                <Phone className="mr-2 h-4 w-4 flex-shrink-0" />
+                <a href="tel:+919238209183" className="hover:text-primary transition-colors">
+                  +91 9238209183
+                </a>
+              </div>
+              <div className="flex items-center">
+                <Mail className="mr-2 h-4 w-4 flex-shrink-0" />
+                <a href="mailto:contact@financeflash.com" className="hover:text-primary transition-colors">
+                  contact@financeflash.com
+                </a>
+              </div>
+            </div>
           </div>
 
           <div>
@@ -63,6 +82,9 @@ export default function Footer() {
 
         <div className="mt-8 border-t pt-8 text-center text-sm text-muted-foreground">
           <p>&copy; {new Date().getFullYear()} Finance Flash. All rights reserved.</p>
+          <p className="mt-1">
+            Contact: Sumit Sharma | Phone: +91 9238209183 | Email: contact@financeflash.com
+          </p>
           <p className="mt-1">
             Disclaimer: Information on this site is for educational purposes only and not financial advice.
           </p>

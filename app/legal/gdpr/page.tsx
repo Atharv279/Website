@@ -17,34 +17,22 @@ export default function GDPRCompliance() {
         <CardContent className="prose prose-lg max-w-none">
           <h2>1. Introduction</h2>
           <p>
-            FinVista is committed to protecting the privacy and security of your personal data. This GDPR Compliance statement explains how we comply with the General Data Protection Regulation (GDPR) and your rights under this regulation.
+            The General Data Protection Regulation (GDPR) is a comprehensive data protection law that came into effect on May 25, 2018. This page explains how we comply with GDPR requirements and protect your personal data.
           </p>
 
           <h2>2. Your Rights Under GDPR</h2>
-          <p>Under the GDPR, you have the following rights:</p>
+          <p>Under GDPR, you have the following rights:</p>
           <ul>
-            <li>Right to be informed about how your data is processed</li>
-            <li>Right of access to your personal data</li>
-            <li>Right to rectification of inaccurate data</li>
-            <li>Right to erasure (right to be forgotten)</li>
-            <li>Right to restrict processing</li>
-            <li>Right to data portability</li>
-            <li>Right to object to processing</li>
-            <li>Rights related to automated decision making and profiling</li>
+            <li><strong>Right to Access:</strong> You can request a copy of your personal data</li>
+            <li><strong>Right to Rectification:</strong> You can request correction of inaccurate data</li>
+            <li><strong>Right to Erasure:</strong> You can request deletion of your personal data</li>
+            <li><strong>Right to Restrict Processing:</strong> You can request limitation of data processing</li>
+            <li><strong>Right to Data Portability:</strong> You can request your data in a portable format</li>
+            <li><strong>Right to Object:</strong> You can object to processing of your personal data</li>
           </ul>
 
-          <h2>3. How We Process Your Data</h2>
-          <h3>3.1 Legal Basis for Processing</h3>
-          <p>We process your personal data on the following legal bases:</p>
-          <ul>
-            <li>With your consent</li>
-            <li>To fulfill our contractual obligations</li>
-            <li>To comply with legal obligations</li>
-            <li>For our legitimate interests</li>
-          </ul>
-
-          <h3>3.2 Data We Collect</h3>
-          <p>We may collect and process the following types of personal data:</p>
+          <h2>3. Data We Collect</h2>
+          <p>We collect the following types of personal data:</p>
           <ul>
             <li>Contact information (name, email, phone number)</li>
             <li>Account information</li>
@@ -88,25 +76,21 @@ export default function GDPRCompliance() {
             We have appointed a Data Protection Officer (DPO) who can be contacted at:
           </p>
           <ul>
-            <li>Email: dpo@finvista.com</li>
-            <li>Phone: +91 1800-123-4567</li>
-            <li>Address: FinVista Tower, 123 Business Park, Mumbai, Maharashtra 400001</li>
+            <li><strong>Contact Person:</strong> Sumit Sharma</li>
+            <li><strong>Phone:</strong> +91 9238209183</li>
+            <li><strong>Email:</strong> contact@financeflash.com</li>
+            <li><strong>Address:</strong> Mumbai, Maharashtra, India</li>
           </ul>
 
-          <h2>9. Changes to This Policy</h2>
+          <h2>9. Complaints</h2>
           <p>
-            We may update this GDPR Compliance statement from time to time. We will notify you of any changes by posting the new statement on this page and updating the "Last updated" date.
+            If you have concerns about how we handle your personal data, you have the right to lodge a complaint with your local data protection authority.
           </p>
 
-          <h2>10. Contact Us</h2>
+          <h2>10. Updates to This Policy</h2>
           <p>
-            If you have any questions about our GDPR compliance or your rights, please contact us at:
+            We may update this GDPR compliance statement from time to time to reflect changes in our practices or applicable law. We will notify you of any material changes.
           </p>
-          <ul>
-            <li>Email: privacy@finvista.com</li>
-            <li>Phone: +91 1800-123-4567</li>
-            <li>Address: FinVista Tower, 123 Business Park, Mumbai, Maharashtra 400001</li>
-          </ul>
         </CardContent>
       </Card>
     </div>

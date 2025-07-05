@@ -20,7 +20,7 @@ const marketHighlightsData = [
     title: 'Market Outlook Q2 2025: Cautious Optimism',
     summary: 'Post-Budget 2025 rally shows signs of consolidation. RBI\'s stance on inflation and global cues are key factors influencing market direction in mid-2025.',
     icon: TrendingUp,
-    image: '/images/market-outlook.jpg',
+    image: '/20250706_0249_Financial Market Analysis_simple_compose_01jze77p48egnb7s2emry00prn.png',
     aiHint: 'market graph',
   },
   {
@@ -28,7 +28,7 @@ const marketHighlightsData = [
     title: 'Sector Spotlight: Renewables & Infra Gain Post-Budget 2025',
     summary: 'Significant allocations and policy support in Budget 2025 have boosted investor sentiment in renewable energy and infrastructure sectors.',
     icon: Building,
-    image: '/images/renewable-energy.jpg',
+    image: '/20250706_0250_Sustainable Energy Solutions_simple_compose_01jze7akqgfb3bxkm6fwzk72vq.png',
     aiHint: 'renewable energy',
   },
   {
@@ -36,7 +36,7 @@ const marketHighlightsData = [
     title: 'Mutual Fund Returns (YTD May 2025): Small & Mid-Caps Lead',
     summary: 'Broad market participation seen, with small and mid-cap funds delivering notable returns. SIP inflows continue to be robust, reflecting investor confidence.',
     icon: LineChart,
-    image: '/images/mutual-funds.jpg',
+    image: '/20250706_0235_Stock Trading Dashboard_simple_compose_01jze6dgeseaq8akjewp6a6x2y.png',
     aiHint: 'fund chart',
   },
 ];

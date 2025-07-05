@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Finance Flash',
     images: [
       {
-        url: '/images/market-outlook.jpg',
+        url: '/20250706_0249_Financial Market Analysis_simple_compose_01jze77p48egnb7s2emry00prn.png',
         width: 800,
         height: 400,
         alt: 'Finance Flash',
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Finance Flash - Your Daily Financial Insights',
     description: 'Stay updated with the latest financial news, articles, and market analysis.',
-    images: ['/images/market-outlook.jpg'],
+    images: ['/20250706_0249_Financial Market Analysis_simple_compose_01jze77p48egnb7s2emry00prn.png'],
   },
   robots: {
     index: true,

@@ -13,7 +13,7 @@ const marketUpdatesData = [
     summary: 'The Union Budget 2025, presented today, laid significant emphasis on infrastructure development and renewable energy, with analysts predicting a positive long-term impact on related sectors. Capital expenditure outlays have seen a notable increase.',
     category: 'Budget 2025',
     icon: FileText,
-    image: '/images/market-outlook.jpg',
+    image: '/20250706_0250_Sustainable Energy Solutions_simple_compose_01jze7akqgfb3bxkm6fwzk72vq.png',
     aiHint: 'budget analysis',
     content: `The Union Budget 2025 has set a new benchmark for infrastructure development and green energy initiatives in India. Finance Minister's announcement of a ₹15 lakh crore infrastructure push has sent positive signals across the market.
 
@@ -56,7 +56,7 @@ Market analysts predict a 15-20% growth in infrastructure-related stocks over th
     summary: 'AMFI data for February 2025 shows SIP contributions hitting a new high of ₹20,000 crore, reflecting continued retail investor confidence following positive cues from the Union Budget and stable market performance.',
     category: 'Mutual Funds',
     icon: TrendingUp,
-    image: '/images/mutual-funds.jpg',
+    image: '/20250706_0249_Diverse Investment Portfolio_simple_compose_01jze77c1wf2yvvdnac4zxnkpj.png',
     aiHint: 'growth chart',
     content: `The mutual fund industry continues to witness robust growth in Systematic Investment Plan (SIP) contributions, with February 2025 data showing a record-breaking ₹20,000 crore in monthly SIP inflows. This marks a significant milestone in India's retail investment landscape.
 
@@ -103,7 +103,7 @@ Analysts predict SIP contributions to cross ₹25,000 crore by the end of 2025, 
     summary: 'The Nifty 50 index crossed the 25,000 mark in late March 2025, driven by strong domestic inflows and positive global cues. Bank Nifty also demonstrated robust performance, supported by healthy credit growth figures.',
     category: 'Stock Market',
     icon: BarChart2,
-    image: '/images/market-outlook.jpg',
+    image: '/20250706_0249_Financial Market Analysis_simple_compose_01jze77p48egnb7s2emry00prn.png',
     aiHint: 'market index',
   },
   {
@@ -113,7 +113,7 @@ Analysts predict SIP contributions to cross ₹25,000 crore by the end of 2025, 
     summary: 'The Reserve Bank of India\'s Monetary Policy Committee (MPC) unanimously decided to keep the repo rate unchanged at 6.5% for the seventh consecutive time, citing persistent inflationary concerns despite robust economic growth.',
     category: 'RBI Announcements',
     icon: Landmark,
-    image: '/images/renewable-energy.jpg',
+    image: '/20250706_0234_Businesswoman Analyzing Investments_simple_compose_01jze6evj1em3byc379mnthnqj.png',
     aiHint: 'bank meeting',
   },
   {
@@ -123,7 +123,7 @@ Analysts predict SIP contributions to cross ₹25,000 crore by the end of 2025, 
     summary: 'Data for mutual fund performance up to May 2025 reveals that thematic funds, particularly those focused on manufacturing and infrastructure, have delivered strong returns over the past year. Diversified equity funds also posted healthy gains.',
     category: 'Mutual Funds',
     icon: Annoyed, // Note: Lucide 'Annoyed' might be placeholder, consider more relevant like 'BarChartBig' or 'TrendingUp'
-    image: '/images/mutual-funds.jpg',
+    image: '/20250706_0235_Stock Trading Dashboard_simple_compose_01jze6dgeseaq8akjewp6a6x2y.png',
     aiHint: 'fund report',
   },
 ];

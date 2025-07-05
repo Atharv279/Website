@@ -94,9 +94,10 @@ export default function PrivacyPolicy() {
             If you have any questions about this Privacy Policy, please contact us at:
           </p>
           <ul>
-            <li>Email: privacy@finvista.com</li>
-            <li>Phone: +91 1800-123-4567</li>
-            <li>Address: FinVista Tower, 123 Business Park, Mumbai, Maharashtra 400001</li>
+            <li><strong>Contact Person:</strong> Sumit Sharma</li>
+            <li><strong>Phone:</strong> +91 9238209183</li>
+            <li><strong>Email:</strong> contact@financeflash.com</li>
+            <li><strong>Address:</strong> Mumbai, Maharashtra, India</li>
           </ul>
         </div>
       </div>

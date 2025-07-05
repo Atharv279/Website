@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import Link from 'next/link';
-import AdSlot from '@/components/ads/ad-slot';
+import AdSlot from '@/components/AdSlot';
 import { BarChart3 } from 'lucide-react';
 
 const Header: FC = () => {
@@ -15,11 +15,11 @@ const Header: FC = () => {
             </h1>
           </Link>
           <div className="hidden sm:block">
-             <AdSlot width={728} height={90} label="Top Banner Ad" className="max-w-full" />
+             <AdSlot id="top-banner" type="banner" className="max-w-full" />
           </div>
         </div>
         <div className="sm:hidden mt-4 flex justify-center">
-            <AdSlot width={320} height={100} label="Mobile Banner Ad" className="max-w-full" />
+            <AdSlot id="mobile-banner" type="banner" className="max-w-full" />
         </div>
       </div>
     </header>

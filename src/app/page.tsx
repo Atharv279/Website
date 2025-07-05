@@ -1,7 +1,5 @@
-
-
-import Header from '@/components/layout/header';
-import Footer from '@/components/layout/footer';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 import ArticleCard from '@/components/content/article-card';
 import ChartComponent from '@/components/content/chart-component';
 import AdSlot from '@/components/ads/ad-slot';
@@ -19,7 +17,7 @@ export default function DashboardPage() {
       id: '1',
       title: 'Navigating Market Volatility: A Guide for Investors',
       summary: 'Learn strategies to protect your portfolio and find opportunities during uncertain economic times.',
-      imageUrl: 'https://placehold.co/600x400.png',
+      imageUrl: '/images/market-outlook.jpg',
       imageHint: 'stock market graph',
       articleUrl: '/articles/market-volatility',
       category: 'Investing',
@@ -29,7 +27,7 @@ export default function DashboardPage() {
       id: '2',
       title: 'The Future of Digital Currencies: Beyond Bitcoin',
       summary: 'An exploration of emerging cryptocurrencies and blockchain technologies poised to reshape finance.',
-      imageUrl: 'https://placehold.co/600x400.png',
+      imageUrl: '/images/renewable-energy.jpg',
       imageHint: 'digital currency concept',
       articleUrl: '/articles/future-of-crypto',
       category: 'Technology',
@@ -39,7 +37,7 @@ export default function DashboardPage() {
       id: '3',
       title: 'Sustainable Investing: Aligning Profit with Purpose',
       summary: 'Discover how ESG (Environmental, Social, and Governance) factors are influencing investment decisions.',
-      imageUrl: 'https://placehold.co/600x400.png',
+      imageUrl: '/images/mutual-funds.jpg',
       imageHint: 'green energy finance',
       articleUrl: '/articles/sustainable-investing',
       category: 'ESG',

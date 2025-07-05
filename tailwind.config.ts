@@ -3,28 +3,16 @@ import type {Config} from 'tailwindcss';
 export default {
   darkMode: ['class'],
   content: [
-<<<<<<< HEAD
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-=======
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
->>>>>>> 1abaf98008ba0a4c296c120161b81d0617c512cd
   ],
   theme: {
     extend: {
       fontFamily: {
-<<<<<<< HEAD
-        body: ['Inter', 'sans-serif'],
-        headline: ['Inter', 'sans-serif'],
-        code: ['monospace', 'monospace'], // Added monospace fallback
-=======
         body: ['Inter', 'Roboto', 'system-ui', 'sans-serif'],
         headline: ['Inter', 'Roboto', 'system-ui', 'sans-serif'],
         code: ['monospace'],
->>>>>>> 1abaf98008ba0a4c296c120161b81d0617c512cd
       },
       colors: {
         background: 'hsl(var(--background))',
@@ -67,9 +55,6 @@ export default {
           '4': 'hsl(var(--chart-4))',
           '5': 'hsl(var(--chart-5))',
         },
-<<<<<<< HEAD
-        // Sidebar color definitions removed
-=======
         sidebar: {
           DEFAULT: 'hsl(var(--sidebar-background))',
           foreground: 'hsl(var(--sidebar-foreground))',
@@ -80,7 +65,6 @@ export default {
           border: 'hsl(var(--sidebar-border))',
           ring: 'hsl(var(--sidebar-ring))',
         },
->>>>>>> 1abaf98008ba0a4c296c120161b81d0617c512cd
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -104,21 +88,10 @@ export default {
             height: '0',
           },
         },
-<<<<<<< HEAD
-        'fade-in': {
-          from: { opacity: '0' },
-          to: { opacity: '1' },
-        },
-=======
->>>>>>> 1abaf98008ba0a4c296c120161b81d0617c512cd
       },
       animation: {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
-<<<<<<< HEAD
-        'fade-in': 'fade-in 0.5s ease-out',
-=======
->>>>>>> 1abaf98008ba0a4c296c120161b81d0617c512cd
       },
     },
   },

@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Logo from '../icons/Logo';
-import AdSlot from '../AdSlot';
+import AdSlot from '@/components/AdSlot';
 import { Button } from '../ui/button';
 // SidebarTrigger is no longer used
 import { Home, Newspaper, TrendingUp } from 'lucide-react'; // Removed unused icons

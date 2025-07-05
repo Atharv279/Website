@@ -16,7 +16,6 @@ const socialLinks = [
   { href: '#', label: 'Facebook', icon: Facebook },
 ];
 
-
 export default function Footer() {
   return (
     <footer className="border-t bg-background/80">

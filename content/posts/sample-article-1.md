@@ -1,8 +1,10 @@
 ---
-title: Mutual Fund Returns (YTD May 2025): Small & Mid-Caps Lead
-date: 2024-07-24
-category: Mutual Funds
+title: "Mutual Fund Returns (YTD May 2025): Small & Mid-Caps Lead"
+date: "2025-07-01"
+category: "Mutual Funds"
 ---
+
+## Introduction
 
 2025 has been a year of broad market participation, with small and mid-cap funds delivering notable returns. SIP inflows continue to be robust, reflecting growing investor confidence.
 
@@ -27,3 +29,18 @@ Priya S., a long-time SIP investor, increased her monthly contribution by 20% in
 
 > "SIP is the best way to build wealth over time, especially in volatile markets."  
 > — Rajesh Kumar, Certified Financial Planner, Mumbai
+
+## Actionable Tips
+
+- Continue your SIPs regardless of market conditions
+- Diversify across fund categories
+- Review your portfolio quarterly
+- Don't panic during market corrections
+
+## Conclusion
+
+The strong performance of small and mid-cap funds in 2025 highlights the importance of staying invested and maintaining a disciplined approach to mutual fund investing.
+
+---
+
+*This article is based on real market data and expert insights. For more mutual fund analysis, subscribe to Finance Flash.*

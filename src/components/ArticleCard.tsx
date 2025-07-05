@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardFooter, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { CalendarDays, UserCircle, Clock } from 'lucide-react';
-import type { Post } from '@/types';
+import type { Post } from '../../types';
 import { format, parseISO } from 'date-fns';
 
 interface ArticleCardProps {
@@ -11,7 +11,19 @@ interface ArticleCardProps {
 }
 
 export default function ArticleCard({ post }: ArticleCardProps) {
-  const formattedDate = post.date ? format(parseISO(post.date), 'MMMM d, yyyy') : 'N/A';
+  let formattedDate = 'N/A';
+  
+  try {
+    if (post.date) {
+      const parsedDate = parseISO(post.date);
+      if (!isNaN(parsedDate.getTime())) {
+        formattedDate = format(parsedDate, 'MMMM d, yyyy');
+      }
+    }
+  } catch (error) {
+    console.error(`Error formatting date for post ${post.slug}:`, error);
+    formattedDate = 'N/A';
+  }
 
   return (
     <Card className="flex flex-col h-full overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 ease-in-out animate-fade-in">

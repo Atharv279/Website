@@ -1,7 +1,7 @@
 ---
-title: The Rise of ESG Mutual Funds: Are They Worth It?
-date: 2025-07-01
-category: Sustainable Investing
+title: "The Rise of ESG Mutual Funds: Are They Worth It?"
+date: "2025-07-01"
+category: "Sustainable Investing"
 ---
 
 ## Introduction

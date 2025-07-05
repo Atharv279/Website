@@ -1,7 +1,7 @@
 ---
-title: Real User Q&A: How Can I Start SIPs as a College Student?
-date: 2025-07-01
-category: Personal Finance
+title: "Real User Q&A: How Can I Start SIPs as a College Student?"
+date: "2025-07-01"
+category: "Personal Finance"
 ---
 
 ## Introduction

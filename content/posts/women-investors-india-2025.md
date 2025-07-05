@@ -1,7 +1,7 @@
 ---
-title: Women Investors in India: Breaking Barriers in 2025
-date: 2025-07-01
-category: Women & Money
+title: "Women Investors in India: Breaking Barriers in 2025"
+date: "2025-07-01"
+category: "Women & Money"
 ---
 
 ## Introduction

@@ -1,7 +1,7 @@
 ---
-title: From Side Hustle to Startup: The Story of Delhi's FoodTech Boom
-date: 2025-07-01
-category: Entrepreneurship
+title: "From Side Hustle to Startup: The Story of Delhi's FoodTech Boom"
+date: "2025-07-01"
+category: "Entrepreneurship"
 ---
 
 ## Introduction

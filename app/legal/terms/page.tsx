@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+// import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 export default function TermsOfService() {
   return (
     <div className="max-w-4xl mx-auto py-10 px-4">
-      <Card>
-        <CardHeader>
-          <CardTitle className="text-3xl font-headline">Terms of Service</CardTitle>
+      <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
+        <div className="flex flex-col space-y-1.5 p-6">
+          <div className="text-2xl font-semibold leading-none tracking-tight">Terms of Service</div>
           <p className="text-sm text-muted-foreground">Last updated: March 15, 2025</p>
-        </CardHeader>
-        <CardContent className="prose prose-lg max-w-none">
+        </div>
+        <div className="p-6 pt-0 prose prose-lg max-w-none">
           <h2>1. Agreement to Terms</h2>
           <p>
             By accessing or using FinVista's services, you agree to be bound by these Terms of Service. If you disagree with any part of the terms, you may not access our services.
@@ -86,8 +86,8 @@ export default function TermsOfService() {
             <li>Phone: +91 1800-123-4567</li>
             <li>Address: FinVista Tower, 123 Business Park, Mumbai, Maharashtra 400001</li>
           </ul>
-        </CardContent>
-      </Card>
+        </div>
+      </div>
     </div>
   );
 } 

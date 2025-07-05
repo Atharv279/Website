@@ -46,4 +46,4 @@ export default function AppShell({ children }: { children: ReactNode }) {
       <Footer />
     </div>
   );
-}
+} 
